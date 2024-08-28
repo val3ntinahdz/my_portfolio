@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Valentina's Portfolio</title>
+      <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#about">Sobre mi</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="about">
+          <h1>Sobre mi</h1>
+          <p>¡Hola! Soy <strong>Valentina</strong>, desarrolladora web. Me encanta programar y crear cosas nuevas. Siempre estoy aprendiendo algo nuevo y mejorando mis habilidades. Me encanta trabajar en equipo y aprender de los demás.</p>
+        </section>
+        <section id="projects">
+          <h2>Proyectos</h2>
+          <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1</p>
+          </div>
+          <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2</p>
+          </div>
+          <div class="project">
+            <h3>Proyecto 3</h3>
+            <p>Descripción del proyecto 3</p>
+          </div>
+        </section>
+        <section id="contact">
+          <h2>Contacto</h2>
+          <form action="submit.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2024 Valentina</p>
+      </footer>
+</html>
